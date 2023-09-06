@@ -95,16 +95,19 @@ view: detail_08022023 {
     sql: ${point_value2} ;;  }
 
   dimension: uw_pod_name2 {
+    label: "Pod Name"
     type: string
     sql: ${TABLE}.UW_POD_Name2 ;;
   }
 
   dimension: uw_team_name {
+    label: "UW Team Name"
     type: string
     sql: ${TABLE}.UW_Team_Name ;;
   }
 
   dimension: weeknum2 {
+    label: "Week Number"
     type: number
     sql: ${TABLE}.Weeknum2 ;;
   }
