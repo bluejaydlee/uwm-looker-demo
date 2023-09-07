@@ -28,6 +28,13 @@ view: detail_08022023 {
     sql: ${TABLE}.Date_Dim_Id ;;
   }
 
+  dimension: day_of_week {
+    label: "Day of Week"
+    type: date_day_of_week
+    datatype: date
+    sql: ${TABLE}.Date_Dim_Id ;;
+  }
+
   dimension: day_name {
     label: "Day of the Week"
     type: string
